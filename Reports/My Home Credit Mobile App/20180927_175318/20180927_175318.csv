@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+My Home Credit Mobile App,,,2018-09-27 17:53:21,2018-09-27 17:53:57,35.488s,FAILED
+,,,,,,
+Test Cases/Open,,,2018-09-27 17:53:22,2018-09-27 17:53:53,31.617s,PASSED
+startApplication,,,2018-09-27 17:53:22,2018-09-27 17:53:53,31.234s,PASSED
+,,,,,,
+Test Cases/Login,,,2018-09-27 17:53:53,2018-09-27 17:53:55,1.470s,FAILED
+setText,,,2018-09-27 17:53:53,2018-09-27 17:53:55,1.215s,FAILED
+,,,,,,
+Test Cases/Logout,,,2018-09-27 17:53:55,2018-09-27 17:53:56,1.375s,FAILED
+tap,,,2018-09-27 17:53:55,2018-09-27 17:53:56,1.198s,FAILED

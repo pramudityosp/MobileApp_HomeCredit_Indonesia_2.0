@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Home Credit Mobile App" time="35" tests="1" failures="2" errors="0">
+   <testsuite name="My Home Credit Mobile App" tests="1" failures="2" errors="0" time="35" timestamp="2018-09-27 17:53:21" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/My Home Credit Mobile App">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318\\1538045633982.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318\\1538045635366.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.99.20"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-09-27 17:53:22 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-09-27 17:53:22 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-09-27 17:53:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-09-27 17:53:53 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-09-27 17:53:53 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-09-27 17:53:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Masukkan No. Handphone Anda' does not exist
+
+2018-09-27 17:53:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-09-27 17:53:55 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318\\1538045633982.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-27 17:53:53 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-09-27 17:53:55 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-09-27 17:53:55 - [TEST_STEP][FAILED] - tap: Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-09-27 17:53:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/My Home Credit Indonesia/android.widget.TextView20 - PROFILE' does not exist
+
+2018-09-27 17:53:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-09-27 17:53:56 - [MESSAGE][FAILED] - Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\My Home Credit Mobile App\\20180927_175318\\1538045635366.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-27 17:53:55 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-27 17:53:21 - [TEST_SUITE][FAILED] - My Home Credit Mobile App: Test Cases/Login FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-09-27 17:53:21 - [TEST_SUITE][FAILED] - My Home Credit Mobile App: Test Cases/Login FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>
