@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'82232767690'</initValue>
+      <name>User_Flexifast</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1111'</initValue>
+      <name>pin</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

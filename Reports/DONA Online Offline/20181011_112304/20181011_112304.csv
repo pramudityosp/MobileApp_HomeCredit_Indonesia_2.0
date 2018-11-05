@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DONA Online Offline,,,2018-10-11 11:23:06,2018-10-11 11:23:54,47.973s,FAILED
+,,,,,,
+Test Cases/Open,,,2018-10-11 11:23:06,2018-10-11 11:23:37,30.566s,PASSED
+startApplication,,,2018-10-11 11:23:07,2018-10-11 11:23:37,30.134s,PASSED
+,,,,,,
+Test Cases/DONA Offline 1st bod,,,2018-10-11 11:23:37,2018-10-11 11:23:53,16.540s,FAILED
+delay,,,2018-10-11 11:23:37,2018-10-11 11:23:42,5.042s,PASSED
+tap,,,2018-10-11 11:23:42,2018-10-11 11:23:46,4.279s,PASSED
+tap,,,2018-10-11 11:23:46,2018-10-11 11:23:53,6.898s,FAILED

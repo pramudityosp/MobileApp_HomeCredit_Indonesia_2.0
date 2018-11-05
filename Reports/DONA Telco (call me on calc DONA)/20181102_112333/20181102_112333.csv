@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DONA Telco (call me on calc DONA),,,2018-11-02 11:23:36,2018-11-02 11:24:35,58.929s,FAILED
+,,,,,,
+Test Cases/Open,,,2018-11-02 11:23:36,2018-11-02 11:24:09,32.641s,PASSED
+startApplication,,,2018-11-02 11:23:37,2018-11-02 11:24:09,32.174s,PASSED
+,,,,,,
+Test Cases/DONA Telco,,,2018-11-02 11:24:09,2018-11-02 11:24:34,25.119s,FAILED
+delay,,,2018-11-02 11:24:09,2018-11-02 11:24:24,15.073s,PASSED
+tap,,,2018-11-02 11:24:24,2018-11-02 11:24:28,3.733s,PASSED
+tap,,,2018-11-02 11:24:28,2018-11-02 11:24:34,5.906s,FAILED

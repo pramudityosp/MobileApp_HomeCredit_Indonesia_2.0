@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DONA 1st BOD ONLINE" time="82" tests="0" failures="2" errors="0">
+   <testsuite name="DONA 1st BOD ONLINE" tests="0" failures="2" errors="0" time="82" timestamp="2018-11-02 14:07:34" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/DONA 1st BOD ONLINE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD ONLINE\\20181102_140724"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD ONLINE\\20181102_140724\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD ONLINE\\20181102_140724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="hostAddress" value="10.58.29.236"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)"/>
+         <system-out><![CDATA[2018-11-02 14:07:37 - [TEST_CASE][FAILED] - Test Cases/Open: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)
+
+2018-11-02 14:07:38 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)
+
+2018-11-02 14:08:41 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)]]></system-out>
+         <system-err><![CDATA[2018-11-02 14:07:37 - [TEST_CASE][FAILED] - Test Cases/Open: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DONA 1st bod" classname="Test Cases/DONA 1st bod" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-11-02 14:08:41 - [TEST_CASE][FAILED] - Test Cases/DONA 1st bod: Test Cases/DONA 1st bod FAILED because (of) No driver found
+
+2018-11-02 14:08:41 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-11-02 14:08:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-11-02 14:08:56 - [TEST_STEP][PASSED] - tap: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-11-02 14:08:41 - [TEST_CASE][FAILED] - Test Cases/DONA 1st bod: Test Cases/DONA 1st bod FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-02 14:07:34 - [TEST_SUITE][FAILED] - DONA 1st BOD ONLINE: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)]]></system-out>
+      <system-err><![CDATA[2018-11-02 14:07:34 - [TEST_SUITE][FAILED] - DONA 1st BOD ONLINE: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 60 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

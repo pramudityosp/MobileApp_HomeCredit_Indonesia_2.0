@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DONA 1st BOD" time="44" tests="1" failures="1" errors="0">
+   <testsuite name="DONA 1st BOD" tests="1" failures="1" errors="0" time="44" timestamp="2018-10-04 19:07:59" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/DONA 1st BOD">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757\\1538654918907.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757\\1538654921066.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.152"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-10-04 19:07:59 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-10-04 19:08:00 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-10-04 19:08:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DONA Offline 1st bod" classname="Test Cases/DONA Offline 1st bod" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)"/>
+         <system-out><![CDATA[2018-10-04 19:08:29 - [TEST_CASE][FAILED] - Test Cases/DONA Offline 1st bod: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)
+
+2018-10-04 19:08:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView14 - PROMO (1)'
+
+2018-10-04 19:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView14 - PROMO (1)'
+
+2018-10-04 19:08:33 - [TEST_STEP][PASSED] - swipe: Swiped from 0,1,700 to 0,300
+
+2018-10-04 19:08:35 - [MESSAGE][PASSED] - Swiped from 0,1,700 to 0,300
+
+2018-10-04 19:08:35 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)
+
+2018-10-04 19:08:41 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757\\1538654918907.png]]
+
+2018-10-04 19:08:43 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA 1st BOD\\20181004_190757\\1538654921066.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-04 19:08:29 - [TEST_CASE][FAILED] - Test Cases/DONA Offline 1st bod: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-04 19:07:59 - [TEST_SUITE][FAILED] - DONA 1st BOD: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)]]></system-out>
+      <system-err><![CDATA[2018-10-04 19:07:59 - [TEST_SUITE][FAILED] - DONA 1st BOD: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1) not found)]]></system-err>
+   </testsuite>
+</testsuites>

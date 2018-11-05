@@ -4,7 +4,7 @@
    <name>My Home Credit Mobile App</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-27T17:55:39</lastRun>
+   <lastRun>2018-10-02T15:58:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>

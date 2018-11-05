@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DONA Online Offline" time="152" tests="1" failures="1" errors="0">
+   <testsuite name="DONA Online Offline" tests="1" failures="1" errors="0" time="152" timestamp="2018-10-11 17:13:20" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/DONA Online Offline">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318\\1539252946258.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318\\1539252949145.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.28.115"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-10-11 17:13:20 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-10-11 17:13:20 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-10-11 17:13:51 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DONA Offline 1st bod" classname="Test Cases/DONA Offline 1st bod" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)"/>
+         <system-out><![CDATA[2018-10-11 17:13:51 - [TEST_CASE][FAILED] - Test Cases/DONA Offline 1st bod: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)
+
+2018-10-11 17:13:51 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-10-11 17:13:59 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-10-11 17:13:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView5 (Dona Banner 2)'
+
+2018-10-11 17:14:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView5 (Dona Banner 2)'
+
+2018-10-11 17:14:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView6 - AJUKAN SEKARANG'
+
+2018-10-11 17:14:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView6 - AJUKAN SEKARANG'
+
+2018-10-11 17:14:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView4 - LANJUTKAN (1)'
+
+2018-10-11 17:14:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView4 - LANJUTKAN (1)'
+
+2018-10-11 17:14:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView7 - MULAI PENGAJUAN (1)'
+
+2018-10-11 17:14:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView7 - MULAI PENGAJUAN (1)'
+
+2018-10-11 17:14:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView1 (3)'
+
+2018-10-11 17:14:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView1 (3)'
+
+2018-10-11 17:14:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView9 - LANJUTKAN (1)'
+
+2018-10-11 17:14:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView9 - LANJUTKAN (1)'
+
+2018-10-11 17:14:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView0 - GANTI KAMERA (1)'
+
+2018-10-11 17:15:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView0 - GANTI KAMERA (1)'
+
+2018-10-11 17:15:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView10'
+
+2018-10-11 17:15:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView10'
+
+2018-10-11 17:15:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2'
+
+2018-10-11 17:15:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2'
+
+2018-10-11 17:15:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView2 - LANJUTKAN'
+
+2018-10-11 17:15:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView2 - LANJUTKAN'
+
+2018-10-11 17:15:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)'
+
+2018-10-11 17:15:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)'
+
+2018-10-11 17:15:30 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'LANJUTKAN' successfully
+
+2018-10-11 17:15:33 - [MESSAGE][PASSED] - Scrolling to text 'LANJUTKAN' successfully
+
+2018-10-11 17:15:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView15 - LANJUTKAN'
+
+2018-10-11 17:15:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView15 - LANJUTKAN'
+
+2018-10-11 17:15:36 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)
+
+2018-10-11 17:15:49 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318\\1539252946258.png]]
+
+2018-10-11 17:15:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_171318\\1539252949145.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-11 17:13:51 - [TEST_CASE][FAILED] - Test Cases/DONA Offline 1st bod: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-11 17:13:20 - [TEST_SUITE][FAILED] - DONA Online Offline: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)]]></system-out>
+      <system-err><![CDATA[2018-10-11 17:13:20 - [TEST_SUITE][FAILED] - DONA Online Offline: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2) not found)]]></system-err>
+   </testsuite>
+</testsuites>

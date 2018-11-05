@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Flexifast,,,2018-11-02 14:56:35,2018-11-02 14:57:42,1m - 6.892s,FAILED
+,,,,,,
+Test Cases/Open,,,2018-11-02 14:56:35,2018-11-02 14:57:16,40.631s,PASSED
+startApplication,,,2018-11-02 14:56:36,2018-11-02 14:57:16,39.979s,PASSED
+,,,,,,
+Test Cases/Flexifast,,,2018-11-02 14:57:16,2018-11-02 14:57:41,24.704s,FAILED
+tap,,,2018-11-02 14:57:17,2018-11-02 14:57:22,5.451s,PASSED
+tap,,,2018-11-02 14:57:22,2018-11-02 14:57:24,1.944s,PASSED
+tap,,,2018-11-02 14:57:24,2018-11-02 14:57:41,16.614s,FAILED

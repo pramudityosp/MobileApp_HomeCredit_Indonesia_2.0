@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing Flexifast" time="50" tests="2" failures="1" errors="0">
+   <testsuite name="Testing Flexifast" tests="2" failures="1" errors="0" time="50" timestamp="2018-10-02 10:01:28" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/Testing Flexifast">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126\\1538449336090.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126\\1538449337423.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.152"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-10-02 10:01:29 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-10-02 10:01:29 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-10-02 10:02:00 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-02 10:02:00 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-02 10:02:00 - [TEST_STEP][PASSED] - setText: Text '81213254451' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Masukkan No. Handphone Anda'
+
+2018-10-02 10:02:03 - [MESSAGE][PASSED] - Text '81213254451' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Masukkan No. Handphone Anda'
+
+2018-10-02 10:02:03 - [TEST_STEP][PASSED] - setText: Text '1111' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1 - Masukkan Kode PIN'
+
+2018-10-02 10:02:05 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1 - Masukkan Kode PIN'
+
+2018-10-02 10:02:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - LOGIN'
+
+2018-10-02 10:02:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - LOGIN']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flexifast" classname="Test Cases/Flexifast" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)"/>
+         <system-out><![CDATA[2018-10-02 10:02:08 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)
+
+2018-10-02 10:02:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-10-02 10:02:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-10-02 10:02:12 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)
+
+2018-10-02 10:02:17 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126\\1538449336090.png]]
+
+2018-10-02 10:02:18 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_100126\\1538449337423.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-02 10:02:08 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-02 10:01:28 - [TEST_SUITE][FAILED] - Testing Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)]]></system-out>
+      <system-err><![CDATA[2018-10-02 10:01:28 - [TEST_SUITE][FAILED] - Testing Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang not found)]]></system-err>
+   </testsuite>
+</testsuites>

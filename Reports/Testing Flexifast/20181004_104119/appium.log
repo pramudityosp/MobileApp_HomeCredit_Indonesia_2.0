@@ -1,0 +1,64 @@
+[35m[Appium][39m Welcome to Appium v1.8.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62065
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 62070
+[35m[Appium][39m   tmpDir: C:\Users\PRAMUD~1.PRA\AppData\Local\Temp\\Katalon\Appium\Temp1538624484272
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62065
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m29 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\pramudityo.pratanto\\Desktop\\Katalon Update\\appv2-development-universal-debug (1).apk","appWaitActivity":"id.co.homecredit.*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"asus ASUS_X00TD (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"J5AXGF00V036ZZZ"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\pramudityo.pratanto\\Desktop\\Katalon Update\\appv2-development-universal-debug (1).apk","appWaitActivity":"id.co.homecredit.*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"asus ASUS_X00TD (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"J5AXGF00V036ZZZ"},"firstMatch":[{"platformName":"android"}]}}[39m
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","appWaitActivity","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk
+[35m[Appium][39m   appWaitActivity: id.co.homecredit.*
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceId: 
+[35m[Appium][39m   deviceName: asus ASUS_X00TD (Android 8.1.0)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: J5AXGF00V036ZZZ
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: ef7f9baa-4076-4ee2-a145-f55c69f4f594
+[35m[BaseDriver][39m Using local app 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/pramudityo.pratanto/.katalon/tools/android_sdk/build-tools/28.0.1
+[35m[ADB][39m     C:/Users/pramudityo.pratanto/.katalon/tools/android_sdk/build-tools/25.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: J5AXGF00V036ZZZ
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\build-tools\28.0.1\apkanalyzer.bat,C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\build-tools\25.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\build-tools\25.0.3\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'id.co.myhomecredit.dev'
+[35m[ADB][39m Main activity name: 'id.co.homecredit.v2.launcherpage.LauncherActivity'
+[35m[ADB][39m Getting device platform version
+[35m[ADB][39m Using apksigner.bat from C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\build-tools\25.0.3\apksigner.bat
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\pramudityo.pratanto\.katalon\tools\android_sdk\build-tools\25.0.3\zipalign.exe
+[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
+[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[35m[ADB][39m Successfully extracted 1077 strings from 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' resources for '(default)' configuration
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\pramudityo.pratanto\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\pramudityo.pratanto\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s J5AXGF00V036ZZZ shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'id.co.myhomecredit.dev/id.co.homecredit.*'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session ef7f9baa-4076-4ee2-a145-f55c69f4f594 added to master session list

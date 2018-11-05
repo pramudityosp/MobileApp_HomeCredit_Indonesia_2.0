@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Flexifast" time="108" tests="1" failures="1" errors="0">
+   <testsuite name="Test Flexifast" tests="1" failures="1" errors="0" time="108" timestamp="2018-11-01 13:55:31" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/Test Flexifast">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529\\1541055436083.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529\\1541055437349.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.236"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:55:31 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-11-01 13:55:32 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-11-01 13:56:02 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flexifast" classname="Test Cases/Flexifast" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)"/>
+         <system-out><![CDATA[2018-11-01 13:56:02 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)
+
+2018-11-01 13:56:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-11-01 13:56:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-11-01 13:56:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang'
+
+2018-11-01 13:56:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang'
+
+2018-11-01 13:56:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView6 - Pilih Tujuan'
+
+2018-11-01 13:56:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView6 - Pilih Tujuan'
+
+2018-11-01 13:56:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Handphonegadgettablet'
+
+2018-11-01 13:56:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Handphonegadgettablet'
+
+2018-11-01 13:56:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/obj_calc_page/android.widget.LinearLayout12'
+
+2018-11-01 13:56:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/obj_calc_page/android.widget.LinearLayout12'
+
+2018-11-01 13:56:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/android.widget.RelativeLayout4'
+
+2018-11-01 13:56:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/android.widget.RelativeLayout4'
+
+2018-11-01 13:56:16 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:56:20 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:56:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - Lanjutkan'
+
+2018-11-01 13:56:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - Lanjutkan'
+
+2018-11-01 13:56:23 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 13:56:27 - [MESSAGE][PASSED] - Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 13:56:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - UPLOAD'
+
+2018-11-01 13:56:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - UPLOAD'
+
+2018-11-01 13:56:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/ff_ktp_kamera_page/(button kamer ktp) android.widget.ImageView10'
+
+2018-11-01 13:56:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/ff_ktp_kamera_page/(button kamer ktp) android.widget.ImageView10'
+
+2018-11-01 13:56:31 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/My Home Credit Indonesia/Flexifast/ff_ktp_kamera_page/(Ceklis kamera)android.widget.ImageView3' is checked
+
+2018-11-01 13:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-11-01 13:56:34 - [MESSAGE][PASSED] - Element 'Object Repository/My Home Credit Indonesia/Flexifast/ff_ktp_kamera_page/(Ceklis kamera)android.widget.ImageView3' is checked
+
+2018-11-01 13:56:34 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 13:56:35 - [MESSAGE][PASSED] - Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 13:56:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button1 - UPLOAD'
+
+2018-11-01 13:56:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button1 - UPLOAD'
+
+2018-11-01 13:56:37 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:56:41 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:56:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/android.widget.TextView16 - LANJUTKAN'
+
+2018-11-01 13:56:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-11-01 13:56:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/android.widget.TextView16 - LANJUTKAN'
+
+2018-11-01 13:56:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(button kamera)android.widget.ImageView10'
+
+2018-11-01 13:56:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(button kamera)android.widget.ImageView10'
+
+2018-11-01 13:56:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(selfie ceklis kamera)android.widget.ImageView3'
+
+2018-11-01 13:56:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-11-01 13:56:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(selfie ceklis kamera)android.widget.ImageView3'
+
+2018-11-01 13:56:47 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:56:48 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:56:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - LANJUTKAN'
+
+2018-11-01 13:56:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - LANJUTKAN'
+
+2018-11-01 13:56:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank'
+
+2018-11-01 13:56:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank'
+
+2018-11-01 13:56:58 - [TEST_STEP][PASSED] - setText: Text 'bca' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Cari Nama Bank'
+
+2018-11-01 13:57:01 - [MESSAGE][PASSED] - Text 'bca' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Cari Nama Bank'
+
+2018-11-01 13:57:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView1 - Bca'
+
+2018-11-01 13:57:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView1 - Bca'
+
+2018-11-01 13:57:03 - [TEST_STEP][PASSED] - setText: Text '1300190983' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0'
+
+2018-11-01 13:57:05 - [MESSAGE][PASSED] - Text '1300190983' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0'
+
+2018-11-01 13:57:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView5 - Verifikasi Nomor Rekening'
+
+2018-11-01 13:57:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView5 - Verifikasi Nomor Rekening'
+
+2018-11-01 13:57:07 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:57:10 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 13:57:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView8 - LANJUTKAN'
+
+2018-11-01 13:57:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView8 - LANJUTKAN'
+
+2018-11-01 13:57:13 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)
+
+2018-11-01 13:57:17 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529\\1541055436083.png]]
+
+2018-11-01 13:57:18 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_135529\\1541055437349.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-01 13:56:02 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 13:55:31 - [TEST_SUITE][FAILED] - Test Flexifast: Test Cases/Flexifast FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)]]></system-out>
+      <system-err><![CDATA[2018-11-01 13:55:31 - [TEST_SUITE][FAILED] - Test Flexifast: Test Cases/Flexifast FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1) not found)]]></system-err>
+   </testsuite>
+</testsuites>

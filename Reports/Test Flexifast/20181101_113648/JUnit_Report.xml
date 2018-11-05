@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Flexifast" time="70" tests="0" failures="2" errors="0">
+   <testsuite name="Test Flexifast" tests="0" failures="2" errors="0" time="70" timestamp="2018-11-01 11:36:58" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/Test Flexifast">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_113648"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_113648\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_113648\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.236"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-11-01 11:36:59 - [TEST_CASE][FAILED] - Test Cases/Open: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-11-01 11:37:00 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-11-01 11:38:07 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-11-01 11:36:59 - [TEST_CASE][FAILED] - Test Cases/Open: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flexifast" classname="Test Cases/Flexifast" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-11-01 11:38:07 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) No driver found
+
+2018-11-01 11:38:08 - [TEST_STEP][PASSED] - tap: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-11-01 11:38:07 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 11:36:58 - [TEST_SUITE][FAILED] - Test Flexifast: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+      <system-err><![CDATA[2018-11-01 11:36:58 - [TEST_SUITE][FAILED] - Test Flexifast: Test Cases/Open FAILED because (of) Unable to start app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\pramudityo.pratanto\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s J5AXGF00V036ZZZ shell echo' exited with code 1'; Stderr: 'error: device 'J5AXGF00V036ZZZ' not found'; Code: '1' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.18 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ID-L1719', ip: '10.58.29.236', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+   </testsuite>
+</testsuites>

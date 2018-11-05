@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DONA 1st BOD,,,2018-10-04 18:49:46,2018-10-04 18:50:51,1m - 5.437s,INCOMPLETE
+,,,,,,
+Test Cases/Open,,,2018-10-04 18:49:46,2018-10-04 18:50:17,30.959s,PASSED
+startApplication,,,2018-10-04 18:49:46,2018-10-04 18:50:17,30.467s,PASSED
+,,,,,,
+Test Cases/DONA Offline 1st bod,,,2018-10-04 18:50:17,2018-10-04 18:50:51,34.068s,INCOMPLETE
+startApplication,,,2018-10-04 18:50:17,2018-10-04 18:50:51,33.760s,PASSED
+tap,,,2018-10-04 18:50:51,2018-10-04 18:50:51,0.072s,INCOMPLETE

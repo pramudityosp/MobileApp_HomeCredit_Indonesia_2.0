@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DONA Telco" time="112" tests="1" failures="1" errors="0">
+   <testsuite name="DONA Telco" tests="1" failures="1" errors="0" time="112" timestamp="2018-11-02 11:17:39" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/DONA Telco">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732\\1541132369508.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732\\1541132370722.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.236"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-11-02 11:17:40 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-11-02 11:17:40 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-11-02 11:19:02 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DONA Telco" classname="Test Cases/DONA Telco" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)"/>
+         <system-out><![CDATA[2018-11-02 11:19:02 - [TEST_CASE][FAILED] - Test Cases/DONA Telco: Test Cases/DONA Telco FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)
+
+2018-11-02 11:19:02 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-11-02 11:19:17 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-11-02 11:19:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.ImageView5'
+
+2018-11-02 11:19:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.ImageView5'
+
+2018-11-02 11:19:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - AJUKAN SEKARANG'
+
+2018-11-02 11:19:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - AJUKAN SEKARANG'
+
+2018-11-02 11:19:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView4 - LANJUTKAN'
+
+2018-11-02 11:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView4 - LANJUTKAN'
+
+2018-11-02 11:19:26 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)
+
+2018-11-02 11:19:30 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732\\1541132369508.png]]
+
+2018-11-02 11:19:31 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181102_111732\\1541132370722.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-02 11:19:02 - [TEST_CASE][FAILED] - Test Cases/DONA Telco: Test Cases/DONA Telco FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-02 11:17:39 - [TEST_SUITE][FAILED] - DONA Telco: Test Cases/DONA Telco FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)]]></system-out>
+      <system-err><![CDATA[2018-11-02 11:17:39 - [TEST_SUITE][FAILED] - DONA Telco: Test Cases/DONA Telco FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing Flexifast" time="135" tests="3" failures="0" errors="0">
+   <testsuite name="Testing Flexifast" tests="3" failures="0" errors="0" time="135" timestamp="2018-10-02 11:14:06" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/Testing Flexifast">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_111404"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_111404\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Testing Flexifast\\20181002_111404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.152"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-10-02 11:14:06 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-10-02 11:14:07 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-10-02 11:14:36 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-02 11:14:36 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-02 11:14:36 - [TEST_STEP][PASSED] - setText: Text '81213254451' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Masukkan No. Handphone Anda'
+
+2018-10-02 11:14:38 - [MESSAGE][PASSED] - Text '81213254451' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Masukkan No. Handphone Anda'
+
+2018-10-02 11:14:38 - [TEST_STEP][PASSED] - setText: Text '1111' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1 - Masukkan Kode PIN'
+
+2018-10-02 11:14:41 - [MESSAGE][PASSED] - Text '1111' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1 - Masukkan Kode PIN'
+
+2018-10-02 11:14:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - LOGIN'
+
+2018-10-02 11:14:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - LOGIN']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flexifast" classname="Test Cases/Flexifast" status="PASSED">
+         <system-out><![CDATA[2018-10-02 11:14:44 - [TEST_CASE][PASSED] - Test Cases/Flexifast: Test Cases/Flexifast
+
+2018-10-02 11:14:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-10-02 11:14:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-10-02 11:14:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang'
+
+2018-10-02 11:14:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang'
+
+2018-10-02 11:14:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView6 - Pilih Tujuan'
+
+2018-10-02 11:14:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView6 - Pilih Tujuan'
+
+2018-10-02 11:14:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Handphonegadgettablet'
+
+2018-10-02 11:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Handphonegadgettablet'
+
+2018-10-02 11:14:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView4 - 42 bulan'
+
+2018-10-02 11:14:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView4 - 42 bulan'
+
+2018-10-02 11:14:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.RelativeLayout0'
+
+2018-10-02 11:14:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.RelativeLayout0'
+
+2018-10-02 11:14:58 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:03 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - Lanjutkan'
+
+2018-10-02 11:15:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - Lanjutkan'
+
+2018-10-02 11:15:06 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'UPLOAD' successfully
+
+2018-10-02 11:15:10 - [MESSAGE][PASSED] - Scrolling to text 'UPLOAD' successfully
+
+2018-10-02 11:15:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - UPLOAD'
+
+2018-10-02 11:15:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - UPLOAD'
+
+2018-10-02 11:15:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.ImageButton1'
+
+2018-10-02 11:15:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.ImageButton1'
+
+2018-10-02 11:15:13 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'UPLOAD' successfully
+
+2018-10-02 11:15:15 - [MESSAGE][PASSED] - Scrolling to text 'UPLOAD' successfully
+
+2018-10-02 11:15:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button1 - UPLOAD'
+
+2018-10-02 11:15:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button1 - UPLOAD'
+
+2018-10-02 11:15:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.ImageButton1'
+
+2018-10-02 11:15:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.ImageButton1'
+
+2018-10-02 11:15:20 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:21 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - LANJUTKAN'
+
+2018-10-02 11:15:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - LANJUTKAN'
+
+2018-10-02 11:15:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank'
+
+2018-10-02 11:15:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank'
+
+2018-10-02 11:15:26 - [TEST_STEP][PASSED] - setText: Text 'bca' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Cari Nama Bank'
+
+2018-10-02 11:15:29 - [MESSAGE][PASSED] - Text 'bca' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 - Cari Nama Bank'
+
+2018-10-02 11:15:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView1 - Bca'
+
+2018-10-02 11:15:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView1 - Bca'
+
+2018-10-02 11:15:31 - [TEST_STEP][PASSED] - setText: Text '1300190983' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0'
+
+2018-10-02 11:15:32 - [MESSAGE][PASSED] - Text '1300190983' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0'
+
+2018-10-02 11:15:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView5 - Verifikasi Nomor Rekening'
+
+2018-10-02 11:15:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView5 - Verifikasi Nomor Rekening'
+
+2018-10-02 11:15:34 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:38 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView8 - LANJUTKAN'
+
+2018-10-02 11:15:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView8 - LANJUTKAN'
+
+2018-10-02 11:15:40 - [TEST_STEP][PASSED] - setText: Text 'testing flexifast' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1)'
+
+2018-10-02 11:15:41 - [MESSAGE][PASSED] - Text 'testing flexifast' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 (1)'
+
+2018-10-02 11:15:41 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:45 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - LANJUTKAN (1)'
+
+2018-10-02 11:15:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - LANJUTKAN (1)'
+
+2018-10-02 11:15:47 - [TEST_STEP][PASSED] - setText: Text 'yogaaaa' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 (2)'
+
+2018-10-02 11:15:49 - [MESSAGE][PASSED] - Text 'yogaaaa' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 (2)'
+
+2018-10-02 11:15:49 - [TEST_STEP][PASSED] - setText: Text '81213254410' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText2'
+
+2018-10-02 11:15:50 - [MESSAGE][PASSED] - Text '81213254410' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText2'
+
+2018-10-02 11:15:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView7 - Pilih Hubungan'
+
+2018-10-02 11:15:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView7 - Pilih Hubungan'
+
+2018-10-02 11:15:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Ayah'
+
+2018-10-02 11:15:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Ayah'
+
+2018-10-02 11:15:53 - [TEST_STEP][PASSED] - setText: Text 'aryoooo' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText3'
+
+2018-10-02 11:15:55 - [MESSAGE][PASSED] - Text 'aryoooo' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText3'
+
+2018-10-02 11:15:55 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:58 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-10-02 11:15:58 - [TEST_STEP][PASSED] - setText: Text '87886840568' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText4'
+
+2018-10-02 11:16:00 - [MESSAGE][PASSED] - Text '87886840568' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText4'
+
+2018-10-02 11:16:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Pilih Hubungan'
+
+2018-10-02 11:16:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Pilih Hubungan'
+
+2018-10-02 11:16:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView4 - KakakAdik Laki-Laki'
+
+2018-10-02 11:16:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView4 - KakakAdik Laki-Laki'
+
+2018-10-02 11:16:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - LANJUTKAN (1)'
+
+2018-10-02 11:16:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - LANJUTKAN (1)'
+
+2018-10-02 11:16:04 - [TEST_STEP][PASSED] - setText: Text '15000000' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 (3)'
+
+2018-10-02 11:16:06 - [MESSAGE][PASSED] - Text '15000000' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText0 (3)'
+
+2018-10-02 11:16:06 - [TEST_STEP][PASSED] - setText: Text '0' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1'
+
+2018-10-02 11:16:07 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1'
+
+2018-10-02 11:16:07 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Kirim' successfully
+
+2018-10-02 11:16:11 - [MESSAGE][PASSED] - Scrolling to text 'Kirim' successfully
+
+2018-10-02 11:16:11 - [TEST_STEP][PASSED] - setText: Text '1' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1 (1)'
+
+2018-10-02 11:16:12 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText1 (1)'
+
+2018-10-02 11:16:12 - [TEST_STEP][PASSED] - setText: Text '5' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText2 (1)'
+
+2018-10-02 11:16:14 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/My Home Credit Indonesia/android.widget.EditText2 (1)'
+
+2018-10-02 11:16:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.CheckBox0'
+
+2018-10-02 11:16:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.CheckBox0'
+
+2018-10-02 11:16:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView11 - Kirim'
+
+2018-10-02 11:16:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView11 - Kirim'
+
+2018-10-02 11:16:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - LANJUTKAN (1)'
+
+2018-10-02 11:16:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - LANJUTKAN (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-02 11:14:06 - [TEST_SUITE][PASSED] - Testing Flexifast: Test Cases/Flexifast]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

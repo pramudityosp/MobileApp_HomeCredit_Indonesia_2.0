@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DONA Telco" time="78" tests="2" failures="0" errors="0">
+   <testsuite name="DONA Telco" tests="2" failures="0" errors="0" time="78" timestamp="2018-10-11 16:15:49" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/DONA Telco">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181011_161547"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181011_161547\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Telco\\20181011_161547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.28.115"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-10-11 16:15:49 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-10-11 16:15:50 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-10-11 16:16:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DONA Telco" classname="Test Cases/DONA Telco" status="PASSED">
+         <system-out><![CDATA[2018-10-11 16:16:23 - [TEST_CASE][PASSED] - Test Cases/DONA Telco: Test Cases/DONA Telco
+
+2018-10-11 16:16:24 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-10-11 16:16:32 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-10-11 16:16:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.ImageView5'
+
+2018-10-11 16:16:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.ImageView5'
+
+2018-10-11 16:16:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - AJUKAN SEKARANG'
+
+2018-10-11 16:16:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - AJUKAN SEKARANG'
+
+2018-10-11 16:16:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView4 - LANJUTKAN'
+
+2018-10-11 16:16:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView4 - LANJUTKAN'
+
+2018-10-11 16:16:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON'
+
+2018-10-11 16:16:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView8 - HUBUNGI SAYA LEWAT TELEPON'
+
+2018-10-11 16:16:48 - [TEST_STEP][PASSED] - setText: Text 'hcis8mobile@gmail.com' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.EditText0'
+
+2018-10-11 16:16:50 - [MESSAGE][PASSED] - Text 'hcis8mobile@gmail.com' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.EditText0'
+
+2018-10-11 16:16:50 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'HUBUNGI SAYA' successfully
+
+2018-10-11 16:16:54 - [MESSAGE][PASSED] - Scrolling to text 'HUBUNGI SAYA' successfully
+
+2018-10-11 16:16:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView9 - HUBUNGI SAYA'
+
+2018-10-11 16:16:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView9 - HUBUNGI SAYA'
+
+2018-10-11 16:16:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView0 - SELESAI'
+
+2018-10-11 16:16:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/DONA Telco/android.widget.TextView0 - SELESAI'
+
+2018-10-11 16:16:58 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-10-11 16:16:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-10-11 16:16:59 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-10-11 16:17:07 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-11 16:15:49 - [TEST_SUITE][PASSED] - DONA Telco: Test Cases/DONA Telco]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

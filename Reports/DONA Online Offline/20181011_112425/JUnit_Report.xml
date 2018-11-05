@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DONA Online Offline" time="226" tests="1" failures="1" errors="0">
+   <testsuite name="DONA Online Offline" tests="1" failures="1" errors="0" time="226" timestamp="2018-10-11 11:24:28" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/DONA Online Offline">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425\\1539232092426.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425\\1539232093385.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.28.115"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-10-11 11:24:28 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-10-11 11:24:29 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-10-11 11:24:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DONA Offline 1st bod" classname="Test Cases/DONA Offline 1st bod" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)"/>
+         <system-out><![CDATA[2018-10-11 11:24:59 - [TEST_CASE][FAILED] - Test Cases/DONA Offline 1st bod: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)
+
+2018-10-11 11:25:00 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-10-11 11:25:08 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-10-11 11:25:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView5 (Dona Banner 2)'
+
+2018-10-11 11:25:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView5 (Dona Banner 2)'
+
+2018-10-11 11:25:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView6 - AJUKAN SEKARANG'
+
+2018-10-11 11:25:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView6 - AJUKAN SEKARANG'
+
+2018-10-11 11:25:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView4 - LANJUTKAN (1)'
+
+2018-10-11 11:25:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView4 - LANJUTKAN (1)'
+
+2018-10-11 11:25:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView7 - MULAI PENGAJUAN (1)'
+
+2018-10-11 11:25:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView7 - MULAI PENGAJUAN (1)'
+
+2018-10-11 11:25:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView1 (3)'
+
+2018-10-11 11:25:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView1 (3)'
+
+2018-10-11 11:25:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView9 - LANJUTKAN (1)'
+
+2018-10-11 11:25:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView9 - LANJUTKAN (1)'
+
+2018-10-11 11:25:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView0 - GANTI KAMERA (1)'
+
+2018-10-11 11:26:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView0 - GANTI KAMERA (1)'
+
+2018-10-11 11:26:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView10'
+
+2018-10-11 11:26:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView10'
+
+2018-10-11 11:26:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2'
+
+2018-10-11 11:26:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2'
+
+2018-10-11 11:26:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView2 - LANJUTKAN'
+
+2018-10-11 11:26:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView2 - LANJUTKAN'
+
+2018-10-11 11:26:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)'
+
+2018-10-11 11:26:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageView2 (1)'
+
+2018-10-11 11:26:44 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'LANJUTKAN' successfully
+
+2018-10-11 11:26:47 - [MESSAGE][PASSED] - Scrolling to text 'LANJUTKAN' successfully
+
+2018-10-11 11:26:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView15 - LANJUTKAN'
+
+2018-10-11 11:26:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView15 - LANJUTKAN'
+
+2018-10-11 11:26:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)'
+
+2018-10-11 11:26:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.ImageButton1 (2)'
+
+2018-10-11 11:26:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView2 - LANJUTKAN (1)'
+
+2018-10-11 11:26:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView2 - LANJUTKAN (1)'
+
+2018-10-11 11:26:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - MULAI PENGAJUAN'
+
+2018-10-11 11:26:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - MULAI PENGAJUAN'
+
+2018-10-11 11:26:58 - [TEST_STEP][PASSED] - setText: Text '1234561701931125' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText0'
+
+2018-10-11 11:26:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-11 11:27:00 - [MESSAGE][PASSED] - Text '1234561701931125' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText0'
+
+2018-10-11 11:27:00 - [TEST_STEP][PASSED] - setText: Text 'DONNAATTTTT LAGIIII' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1'
+
+2018-10-11 11:27:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-11 11:27:02 - [MESSAGE][PASSED] - Text 'DONNAATTTTT LAGIIII' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1'
+
+2018-10-11 11:27:02 - [TEST_STEP][PASSED] - setText: Text 'Offline' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText2'
+
+2018-10-11 11:27:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-11 11:27:04 - [MESSAGE][PASSED] - Text 'Offline' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText2'
+
+2018-10-11 11:27:04 - [TEST_STEP][PASSED] - setText: Text 'Jakarta' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText3'
+
+2018-10-11 11:27:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-11 11:27:06 - [MESSAGE][PASSED] - Text 'Jakarta' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText3'
+
+2018-10-11 11:27:06 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'LANJUT ISI KONTAK' successfully
+
+2018-10-11 11:27:11 - [MESSAGE][PASSED] - Scrolling to text 'LANJUT ISI KONTAK' successfully
+
+2018-10-11 11:27:11 - [TEST_STEP][PASSED] - setText: Text 'MOMMMYY DONAT' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (1)'
+
+2018-10-11 11:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-11 11:27:12 - [MESSAGE][PASSED] - Text 'MOMMMYY DONAT' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (1)'
+
+2018-10-11 11:27:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView3 - LANJUT ISI KONTAK'
+
+2018-10-11 11:27:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView3 - LANJUT ISI KONTAK'
+
+2018-10-11 11:27:15 - [TEST_STEP][PASSED] - setText: Text 'hcis8mobile@gmail.com' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (2)'
+
+2018-10-11 11:27:17 - [MESSAGE][PASSED] - Text 'hcis8mobile@gmail.com' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (2)'
+
+2018-10-11 11:27:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView8 - LANJUT ISI ALAMAT'
+
+2018-10-11 11:27:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView8 - LANJUT ISI ALAMAT'
+
+2018-10-11 11:27:20 - [TEST_STEP][PASSED] - setText: Text 'Testing jalan ktp donnaa' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText0 (1)'
+
+2018-10-11 11:27:22 - [MESSAGE][PASSED] - Text 'Testing jalan ktp donnaa' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText0 (1)'
+
+2018-10-11 11:27:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.LinearLayout23'
+
+2018-10-11 11:27:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.LinearLayout23'
+
+2018-10-11 11:27:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView5 - Aceh Selatan'
+
+2018-10-11 11:27:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView5 - Aceh Selatan'
+
+2018-10-11 11:27:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.LinearLayout24'
+
+2018-10-11 11:27:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.LinearLayout24'
+
+2018-10-11 11:27:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView7 - Kota Bahagia'
+
+2018-10-11 11:27:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView7 - Kota Bahagia'
+
+2018-10-11 11:27:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView13 - -Pilih-'
+
+2018-10-11 11:27:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView13 - -Pilih-'
+
+2018-10-11 11:27:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Alur Dua Mas'
+
+2018-10-11 11:27:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Alur Dua Mas'
+
+2018-10-11 11:27:32 - [TEST_STEP][PASSED] - setText: Text '1' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (3)'
+
+2018-10-11 11:27:33 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (3)'
+
+2018-10-11 11:27:33 - [TEST_STEP][PASSED] - setText: Text '2' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText2 (1)'
+
+2018-10-11 11:27:35 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText2 (1)'
+
+2018-10-11 11:27:35 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'LANJUT ISI PENGHASILAN' successfully
+
+2018-10-11 11:27:39 - [MESSAGE][PASSED] - Scrolling to text 'LANJUT ISI PENGHASILAN' successfully
+
+2018-10-11 11:27:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView11 - LANJUT ISI PENGHASILAN'
+
+2018-10-11 11:27:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView11 - LANJUT ISI PENGHASILAN'
+
+2018-10-11 11:27:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView10 - --Pilih--'
+
+2018-10-11 11:27:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView10 - --Pilih--'
+
+2018-10-11 11:27:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - KaryawanSwasta'
+
+2018-10-11 11:27:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - KaryawanSwasta'
+
+2018-10-11 11:27:44 - [TEST_STEP][PASSED] - setText: Text '15000000' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText0 (2)'
+
+2018-10-11 11:27:46 - [MESSAGE][PASSED] - Text '15000000' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText0 (2)'
+
+2018-10-11 11:27:46 - [TEST_STEP][PASSED] - setText: Text '0' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (4)'
+
+2018-10-11 11:27:48 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.EditText1 (4)'
+
+2018-10-11 11:27:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView16 - LIHAT RANGKUMAN'
+
+2018-10-11 11:27:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView16 - LIHAT RANGKUMAN'
+
+2018-10-11 11:27:52 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'AJUKAN PINJAMAN' successfully
+
+2018-10-11 11:28:00 - [MESSAGE][PASSED] - Scrolling to text 'AJUKAN PINJAMAN' successfully
+
+2018-10-11 11:28:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.CheckBox0'
+
+2018-10-11 11:28:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.CheckBox0'
+
+2018-10-11 11:28:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView16 - AJUKAN PINJAMAN'
+
+2018-10-11 11:28:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView16 - AJUKAN PINJAMAN'
+
+2018-10-11 11:28:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.Button0 - LANJUTKAN'
+
+2018-10-11 11:28:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.Button0 - LANJUTKAN'
+
+2018-10-11 11:28:07 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)
+
+2018-10-11 11:28:13 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425\\1539232092426.png]]
+
+2018-10-11 11:28:14 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\DONA Online Offline\\20181011_112425\\1539232093385.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-11 11:24:59 - [TEST_CASE][FAILED] - Test Cases/DONA Offline 1st bod: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-11 11:24:28 - [TEST_SUITE][FAILED] - DONA Online Offline: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)]]></system-out>
+      <system-err><![CDATA[2018-10-11 11:24:28 - [TEST_SUITE][FAILED] - DONA Online Offline: Test Cases/DONA Offline 1st bod FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai' (Root cause: Object Object Repository/My Home Credit Indonesia/DONA/android.widget.TextView1 - Selesai not found)]]></system-err>
+   </testsuite>
+</testsuites>

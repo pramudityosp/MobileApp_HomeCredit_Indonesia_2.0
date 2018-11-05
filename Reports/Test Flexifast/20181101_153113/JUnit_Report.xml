@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Flexifast" time="106" tests="1" failures="1" errors="0">
+   <testsuite name="Test Flexifast" tests="1" failures="1" errors="0" time="106" timestamp="2018-11-01 15:31:15" hostname="pramudityo.pratanto - ID-L1719.hcg.homecredit.net" id="Test Suites/Test Flexifast">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113"/>
+         <property name="logFiles" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113\\appium.log, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113\\1541061174619.png, C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113\\1541061175881.png"/>
+         <property name="hostName" value="pramudityo.pratanto - ID-L1719.hcg.homecredit.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ASUS_X00TD"/>
+         <property name="hostAddress" value="10.58.29.236"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="J5AXGF00V036ZZZ"/>
+         <property name="deviceName" value="asus ASUS_X00TD (Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Open" classname="Test Cases/Open" status="PASSED">
+         <system-out><![CDATA[2018-11-01 15:31:15 - [TEST_CASE][PASSED] - Test Cases/Open: Test Cases/Open
+
+2018-11-01 15:31:16 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk'
+
+2018-11-01 15:31:54 - [MESSAGE][PASSED] - Started app at: 'C:\Users\pramudityo.pratanto\Desktop\Katalon Update\appv2-development-universal-debug (1).apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Flexifast" classname="Test Cases/Flexifast" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)"/>
+         <system-out><![CDATA[2018-11-01 15:31:54 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)
+
+2018-11-01 15:31:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-11-01 15:31:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView10 - Renovasi Rumah'
+
+2018-11-01 15:31:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang'
+
+2018-11-01 15:32:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - Daftar Sekarang'
+
+2018-11-01 15:32:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView6 - Pilih Tujuan'
+
+2018-11-01 15:32:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView6 - Pilih Tujuan'
+
+2018-11-01 15:32:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Handphonegadgettablet'
+
+2018-11-01 15:32:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView2 - Handphonegadgettablet'
+
+2018-11-01 15:32:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/obj_calc_page/android.widget.LinearLayout12'
+
+2018-11-01 15:32:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/obj_calc_page/android.widget.LinearLayout12'
+
+2018-11-01 15:32:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/android.widget.RelativeLayout4'
+
+2018-11-01 15:32:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/android.widget.RelativeLayout4'
+
+2018-11-01 15:32:10 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 15:32:14 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 15:32:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - Lanjutkan'
+
+2018-11-01 15:32:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView12 - Lanjutkan'
+
+2018-11-01 15:32:17 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 15:32:21 - [MESSAGE][PASSED] - Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 15:32:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - UPLOAD'
+
+2018-11-01 15:32:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button0 - UPLOAD'
+
+2018-11-01 15:32:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/ff_ktp_kamera_page/(Old kamera ktp button) android.widget.ImageButton1'
+
+2018-11-01 15:32:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/ff_ktp_kamera_page/(Old kamera ktp button) android.widget.ImageButton1'
+
+2018-11-01 15:32:25 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 15:32:27 - [MESSAGE][PASSED] - Scrolling to text 'UPLOAD' successfully
+
+2018-11-01 15:32:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button1 - UPLOAD'
+
+2018-11-01 15:32:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.Button1 - UPLOAD'
+
+2018-11-01 15:32:29 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 15:32:33 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 15:32:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/android.widget.TextView16 - LANJUTKAN'
+
+2018-11-01 15:32:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-11-01 15:32:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/android.widget.TextView16 - LANJUTKAN'
+
+2018-11-01 15:32:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(button kamera)android.widget.ImageView10'
+
+2018-11-01 15:32:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(button kamera)android.widget.ImageView10'
+
+2018-11-01 15:32:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(selfie ceklis kamera)android.widget.ImageView3'
+
+2018-11-01 15:32:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-11-01 15:32:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/Flexifast/Flexifast selfie page/(selfie ceklis kamera)android.widget.ImageView3'
+
+2018-11-01 15:32:40 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 15:32:41 - [MESSAGE][PASSED] - Scrolling to text 'Lanjutkan' successfully
+
+2018-11-01 15:32:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - LANJUTKAN'
+
+2018-11-01 15:32:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView9 - LANJUTKAN'
+
+2018-11-01 15:32:44 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)
+
+2018-11-01 15:32:55 - [MESSAGE][FAILED] - Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113\\1541061174619.png]]
+
+2018-11-01 15:32:56 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)
+[[ATTACHMENT|C:\\Users\\pramudityo.pratanto\\git\\MobileApp_HomeCredit_Indonesia_2.0\\Reports\\Test Flexifast\\20181101_153113\\1541061175881.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-01 15:31:54 - [TEST_CASE][FAILED] - Test Cases/Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 15:31:15 - [TEST_SUITE][FAILED] - Test Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)]]></system-out>
+      <system-err><![CDATA[2018-11-01 15:31:15 - [TEST_SUITE][FAILED] - Test Flexifast: Test Cases/Flexifast FAILED because (of) Failed to tap on element 'Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank' (Root cause: Object Object Repository/My Home Credit Indonesia/android.widget.TextView3 - Pilih Bank not found)]]></system-err>
+   </testsuite>
+</testsuites>
